@@ -1,1 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --mac: url(https://cdn.dribbble.com/users/27311/screenshots/2533786/media/4ef08b5e55284af29a6e91480f8145c0.jpg);
+    --frank: url(https://cdn.dribbble.com/users/27311/screenshots/2533787/media/95ae0c02dfc2b567222255e333c57f8b.jpg);
+    --dennis: url(https://cdn.dribbble.com/users/27311/screenshots/2533784/media/44fb7794cbde9d11851fee5257f2d7e6.jpg);
+    --charlie: url(https://cdn.dribbble.com/users/27311/screenshots/2533778/media/0a657104ac29b568f823e715c2321771.jpg);
+    --shadow-header: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+    0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
