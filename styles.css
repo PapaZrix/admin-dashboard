@@ -27,7 +27,7 @@ ul, li, a {
     text-decoration: none;
 }
 
-.container {
+body {
     height: 100vh;
     display: grid;
     grid-template-columns: 300px 1fr;
@@ -38,14 +38,146 @@ ul, li, a {
     ;
 }
 
+/* ----------- HEADER ------------- */
+
 .header {
     grid-area: header;
+    display: grid;
+    gap: 1rem;
+    padding: 10px 40px 10px 40px;
+    grid-template-rows: auto 1fr;
+    font-weight: bold;
 }
+
+/* ----------- HEADER TOP ------------ */
+
+.top {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+input, .search-input {
+    background-color: var(--bg-main);
+    border: none;
+    border-radius: 20px;
+    width: 500px;
+    height: 25px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile-top {
+    background-image: var(--mac);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+/* ----------- HEADER BOTTOM ---------- */
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greeting {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile-bottom {
+    background-image: var(--mac);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+}
+
+.greeting-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting-two {
+    font-size: 1.5rem;
+}
+
+.options {
+    display: flex;
+    gap: 2rem;
+}
+
+.options>button {
+    background-color: var(--bg-sidebar);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    height: 30px;
+    width: 80px;
+}
+
+/* ------------ SIDEBAR -------------- */
 
 .sidebar {
     grid-area: sidebar;
+    background-color: var(--bg-sidebar);
 }
+
+.dashboard {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    gap: 10px;
+    font-weight: bold;
+    padding: 1.6rem;
+}
+
+.dashboard > [class^='material-icons'] {
+    font-size: 40px;
+}
+
+.nav {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2rem;
+}
+
+.nav li {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
 
 .main {
     grid-area: main;
+    background-color: var(--bg-main);
 }
