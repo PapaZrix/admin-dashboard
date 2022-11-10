@@ -255,8 +255,100 @@ input, .search-input {
 
 /* ------------ MAIN-RIGHT ------------ */
 
+.right {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
 
+/* ------------ MAIN-RIGHT-TOP --------- */
 
+.top-right {
+    display: flex;
+    flex-direction: column;
+}
 
+.top-right > h3 {
+    padding-bottom: 10px;
+}
 
+.announce-div, .trending {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.announce-div > .one, .two, .three {
+    font-size: 12px;
+}
+
+.announce-div > div > p.title {
+    font-size: 14px;
+}
+
+.announce-div > .one, .two {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* ---------- MAIN-RIGHT-BOTTOM ----------- */
+
+.bottom-right {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-right > h3 {
+    padding-bottom: 10px;
+}
+
+.picture {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.at {
+    font-weight: bold;
+}
+
+.trend-1, .trend-2, .trend-3, .trend-4 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.trend-1 .picture {
+    background-image: var(--charlie);
+    height: 50px;
+    width: 50px;
+}
+
+.trend-2 .picture {
+    background-image: var(--mac);
+    height: 50px;
+    width: 50px;
+}
+
+.trend-3 .picture {
+    background-image: var(--dennis);
+    height: 50px;
+    width: 50px;
+}
+
+.trend-4 .picture {
+    background-image: var(--frank);
+    height: 50px;
+    width: 50px;
+}
 
