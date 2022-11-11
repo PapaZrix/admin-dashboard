@@ -193,18 +193,9 @@ input, .search-input {
 }
 
 .left > h3 {
-    /* padding-bottom: 10px; */
     grid-column: 1 / -1;
-    margin-bottom: -1.5rem;
+    margin-bottom: -1.2rem;
 }
-
-/* .grid-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-rows: auto 1fr 1fr;
-    grid-auto-rows: 1fr;
-    gap: 40px;
-} */
 
 .title {
     font-weight: 600;
