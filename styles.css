@@ -13,18 +13,22 @@
 }
 
 html {
-    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
-* {
+*, *::after, *::before {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 ul, li, a {
     list-style-type: none;
     text-decoration: none;
+}
+
+button {
+    font-family: inherit;
 }
 
 body {
@@ -132,7 +136,9 @@ input, .search-input {
     border-radius: 20px;
     color: white;
     height: 30px;
-    width: 80px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 15px;
 }
 
 /* ------------ SIDEBAR -------------- */
