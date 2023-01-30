@@ -173,7 +173,8 @@ input:focus {
     font-size: 30px;
     gap: 10px;
     font-weight: bold;
-    padding: 1.6rem;
+    padding: 2.15rem;
+    cursor: pointer;
 }
 
 .dashboard > [class^='material-icons'] {
@@ -199,6 +200,7 @@ input:focus {
 
 .nav li:hover {
     background-color: #38bdf8;
+    border-radius: 0.5rem;
 }
 
 /* ------------ MAIN ------------- */
@@ -245,6 +247,15 @@ input:focus {
     padding: 20px;
     margin-top: 8rem;
     gap: 20px;
+}
+
+.tools span {
+    padding: 0.3rem;
+}
+
+.tools span:hover {
+    background-color: #7dd3fc;
+    border-radius: 50%;
 }
 
 /* ------------ MAIN-RIGHT ------------ */
