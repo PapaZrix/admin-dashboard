@@ -140,10 +140,14 @@ input, .search-input {
     border: none;
     border-radius: 20px;
     color: white;
-    height: 30px;
-    width: 100px;
+    padding: 10px 20px;
+    width: 120px;
     cursor: pointer;
     font-size: 15px;
+}
+
+.options > button:hover {
+    background-color: #0284c7;
 }
 
 /* ------------ SIDEBAR -------------- */
