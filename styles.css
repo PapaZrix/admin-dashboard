@@ -25,6 +25,11 @@ html {
 ul, li, a {
     list-style-type: none;
     text-decoration: none;
+    cursor: pointer;
+}
+
+span {
+    cursor: pointer;
 }
 
 button {
@@ -176,6 +181,11 @@ input, .search-input {
     gap: 20px;
     align-items: center;
     font-size: 20px;
+    padding: 0.5rem;
+}
+
+.nav li:hover {
+    background-color: #38bdf8;
 }
 
 /* ------------ MAIN ------------- */
