@@ -77,7 +77,14 @@ input, .search-input {
     border: none;
     border-radius: 20px;
     width: 500px;
-    height: 25px;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 1rem;
+}
+
+input:focus {
+    background-color: #f8fafc;
+    outline: 2px solid #cbd5e1;
 }
 
 .account {
@@ -94,6 +101,7 @@ input, .search-input {
     border-radius: 50%;
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
 
 /* ----------- HEADER BOTTOM ---------- */
@@ -119,6 +127,7 @@ input, .search-input {
     border-radius: 50%;
     width: 65px;
     height: 65px;
+    cursor: pointer;
 }
 
 .greeting-text {
@@ -318,6 +327,7 @@ input, .search-input {
     height: 50px;
     min-width: 50px;
     background-position: center center;
+    cursor: pointer;
 }
 
 .trend-2 .picture {
@@ -325,6 +335,7 @@ input, .search-input {
     height: 50px;
     min-width: 50px;
     background-position: center center;
+    cursor: pointer;
 }
 
 .trend-3 .picture {
@@ -332,6 +343,7 @@ input, .search-input {
     height: 50px;
     min-width: 50px;
     background-position: center center;
+    cursor: pointer;
 }
 
 .trend-4 .picture {
@@ -339,5 +351,6 @@ input, .search-input {
     height: 50px;
     min-width: 50px;
     background-position: center center;
+    cursor: pointer;
 }
 
